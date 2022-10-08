@@ -1,0 +1,13 @@
+def isDivisable1to20(number):
+    for i in range ( 1, 20):
+        if number % i != 0:
+            return False
+    return True
+    
+number = 20
+while True:
+    if isDivisable1to20(number):
+        break
+    number += 20
+
+print(number)
