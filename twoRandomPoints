@@ -1,0 +1,10 @@
+
+import random
+
+average = 0
+depth  = 10000
+
+def distanceFunction(num1,num2):
+    return sqrt(((num*num1)+(num2*num2_))
+
+for i in range(0,depth):
