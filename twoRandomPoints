@@ -1,10 +1,13 @@
-
-import random
+from random import random
+from math import sqrt
 
 average = 0
-depth  = 10000
+depth = 10000
+def distanceFunction(x1,y1,x2,y2):
+    return sqrt((x1-x2)**2 + (y1-y2)**2)
 
-def distanceFunction(num1,num2):
-    return sqrt(((num*num1)+(num2*num2_))
-
-for i in range(0,depth):
+if __name__ == "__main__":
+    while depth >= 0:
+        average = average + distanceFunction(random(),random(),random(),random())
+        depth = depth -1
+    print(average/10000)
